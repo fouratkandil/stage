@@ -14,7 +14,8 @@ import { JoinNewsletterComponent } from './components/join-newsletter/join-newsl
 import { FooterComponent } from './components/footer/footer.component';
 import { NgParticlesModule } from 'ng-particles';
 import { RouterModule } from '@angular/router';
-import { ResetpasswordComponent } from './resetpassword/resetpassword.component';
+import { ResetpasswordComponent } from './components/resetpassword/resetpassword.component';
+import { HttpClientModule } from '@angular/common/http';
 
 
 @NgModule({
@@ -38,7 +39,7 @@ import { ResetpasswordComponent } from './resetpassword/resetpassword.component'
     ReactiveFormsModule,
     MatCardModule,
     MatInputModule,
-
+    HttpClientModule,
 
   ],
   providers: [],

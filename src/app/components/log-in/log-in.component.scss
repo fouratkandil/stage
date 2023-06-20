@@ -1,38 +1,95 @@
-.btn-google {
-    background-color: #ffffff;
-    color: #707070;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
-    padding: 8px 16px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    cursor: pointer;
-    transition: background-color 0.3s ease;
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .subscribe-wrapper_1 {
+    background-color: #212121;
+    color: #ffffff;
+
+    .login-wrapper {
+      .box {
+        background-color: #2b2b2b;
+
+        .mat-card-title {
+          color: #ffffff;
+        }
+
+        .mat-card-content {
+          .example-full-width {
+            .mat-form-field {
+              .mat-input-element {
+                color: #ffffff;
+
+                &::placeholder {
+                  color: #8c8c8c;
+                }
+              }
+
+              .mat-form-field-underline {
+                background-color: #ffffff;
+              }
+
+              .mat-form-field-ripple {
+                background-color: transparent;
+              }
+            }
+          }
+        }
+
+        .form-footer {
+          .btn {
+            background-color: #ff6600;
+            color: #ffffff;
+
+            &:hover {
+              background-color: #cc5500;
+            }
+          }
+        }
+      }
+    }
   }
-  
-  .btn-google:hover {
-    background-color: #f1f1f1;
+
+  .form-footer {
+    .btn {
+      background-color: #ff6600;
+      color: #ffffff;
+
+      &:hover {
+        background-color: #cc5500;
+      }
+    }
   }
-  
-  .google-icon svg {
-    width: 24px;
-    height: 24px;
-    margin-right: 8px;
-  }
-  
-  .google-text {
-    font-size: 14px;
-    font-weight: 500;
-  }
-  
+
   .or-divider {
-    margin-top: 16px;
-    margin-bottom: 8px;
-    font-size: 14px;
-    font-weight: 500;
-    color: #707070;
-    text-align: center;
+    color: #bfbfbf;
   }
+  .btn-google {
+    background-color: #4285f4;
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    padding: 12px;
+    margin-top: 10px;
   
+    &:hover {
+      background-color: #3367d6;
+    }
   
+    .google-icon {
+      svg {
+        fill: #ffffff; /* Updated icon color */
+        width: 20px; /* Adjust the size of the icon */
+        height: 20px; /* Adjust the size of the icon */
+      }
+    }
+  
+    .google-text {
+      margin-left: 10px;
+    }
+  }
+}

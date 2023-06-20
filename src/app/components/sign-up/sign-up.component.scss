@@ -1,0 +1,59 @@
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+
+  .subscribe-wrapper_1 {
+    background-color: #212121;
+    color: #ffffff;
+
+    .login-wrapper {
+      .box {
+        background-color: #2b2b2b;
+
+        .mat-card-title {
+          color: #ffffff;
+        }
+
+        .mat-card-content {
+          .example-full-width {
+            .mat-form-field {
+              .mat-input-element {
+                color: #ffffff;
+
+                &:focus {
+                  outline: none;
+                  box-shadow: none;
+                }
+              }
+
+              .mat-form-field-underline {
+                background-color: #ffffff;
+              }
+
+              .mat-form-field-ripple {
+                background-color: transparent;
+              }
+            }
+          }
+        }
+
+        .form-footer {
+          .btn {
+            background-color: #ff6600;
+            color: #ffffff;
+
+            &:hover {
+              background-color: #cc5500;
+            }
+          }
+        }
+      }
+    }
+  }
+
+ 
+
+  
+}
